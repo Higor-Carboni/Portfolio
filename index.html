@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Higor Carboni</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Higor Carboni</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por tecnologia e inovação. Com experiência em diversas linguagens e
+            frameworks, busco sempre aprender e aplicar novos conhecimentos.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto">
+            <h3>Calculadora de IMC</h3>
+            <a href="../imc/imc.html">
+                <button type="button">Acessar Calculadora de IMC</button> 
+            </a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>ilustração</p>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 3</h3>
+            <p>ilustração</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/ohigor.carboni@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Portifolio/sucesso.html">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <textarea name="texto" placeholder="Sua Mensagem" required></textarea>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Higor Carboni</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
